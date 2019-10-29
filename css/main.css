@@ -1,0 +1,297 @@
+* {
+
+    box-sizing: border-box;
+    padding: 0;
+
+}
+
+body {
+
+    box-sizing: content-box;
+    margin: auto;
+    background-color: rgb(118, 149, 252);
+    font-family: sans-serif;
+    width: 90%;
+
+
+}
+
+.conteneur-principal {
+
+    margin: 40px auto 100px auto;
+    background-color: #ffffff;
+    width: 920px;
+    height: auto;
+    
+    
+}
+
+
+/*Élément Header*/
+
+.conteneur-header {
+position:relative;
+
+
+}
+
+#image_header {
+width:100%;
+}
+
+header {
+    margin-bottom : -5px;
+}
+
+h1 {
+    position: absolute;
+    top: 20px;
+    left: 500px;
+    font-size: 50px;
+    color: rgb(255, 244, 96);
+    font-weight: bold;
+    z-index: 1;
+}
+
+img {
+
+    width: 100%;
+  
+}
+
+/*Élément nav*/
+
+#table1 {
+    height: 100%;
+    width:100%;
+    text-align: center;
+    border: none;
+    background-color: rgb(255, 244, 96);
+    
+}
+
+.link_menu {
+
+    background-color: rgb(255, 244, 96);
+    padding: 8px;
+    
+}
+
+.col {
+
+border: none;
+}
+
+nav a:link {
+    color: blue;
+    font-weight: bold;
+    text-decoration: underline;
+ 
+}
+
+nav a:active {
+    color: rgb(32, 35, 248);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: rgb(255, 153, 0);
+    font-weight: bold;
+    text-decoration: underline;
+    
+}
+
+nav a:visited {
+    color: rgb(105, 44, 248);
+    text-decoration: none;
+    
+}
+
+.a {
+    text-decoration: underline;
+    margin: 0px auto 5px auto;
+    
+}
+
+/*page tp2.html*/
+
+.no-style {
+
+    list-style: none;
+    width: 200px;
+    background-color: #ccc;
+    margin: 20px auto 20px 60px;
+
+}    
+
+.element {
+        margin-left: 45px;
+    }   
+    
+    main a:link {
+        color: red;
+        text-decoration: none ;
+        font-weight: bold;
+    }
+    
+    main a:active {
+        color: red;
+        text-decoration: none ;
+        font-weight: bold;
+        background-color: #ffffff;
+    }
+    
+    main a:visited {
+        color: rgb(162, 0, 255);;
+        text-decoration: none ;
+        
+    }
+    
+    main a:hover {
+        color: rgb(0, 119, 255);;
+        text-decoration: none ;
+        
+    }    
+
+    .text{
+
+        margin: 20px auto 30px 20px;
+    }
+    
+    p a:link {
+        text-decoration: underline;
+    }
+
+    
+
+
+/*Élément main de la page previsions*/
+
+#table2 {
+    border-collapse: collapse;
+    border-left: 2px #000000 solid;
+    border-bottom: 2px #000000 solid;
+    border-right: 5px #000000 solid;
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    
+  }
+
+  #rday {
+    border-top: 5px #000000 solid;
+    border-collapse: none;
+    background-color: #1bb1b6;
+    color: #ffffff;
+    font-size: 20px;
+
+  }
+
+  #r1 {
+
+    border-collapse: collapse;
+    border: 2px #000000 solid;
+  }
+
+
+
+  #rcol {
+
+    border-collapse: collapse;
+    border: 2px #000000 solid;
+  }
+
+  .icone {
+
+    width: 80px;
+    margin: auto;
+    background-color: #000000;
+  }
+
+
+  #table3 {
+    height: 100%;
+    width:100%;
+    text-align: center;
+    border: none;
+    background-color: rgb(63, 222, 243);
+    
+}
+
+#temp_min {
+    color: blue;
+}
+
+#temp_max {
+    color: red;
+}
+
+.tabImage {
+
+    width: 20%;
+
+}
+
+/*Page Commentaires*/
+
+textarea {
+    width: 50%;
+    height: 100px;
+    margin:5px auto 2px 118px;
+
+}
+
+input {
+    margin: auto auto 2px 180px;
+
+}
+
+#adresse {
+    margin-left:155px;
+}
+
+#align {
+
+    vertical-align: 50px;
+}
+
+.margin5px {
+margin-left: 5px;
+
+}
+
+button {
+
+    padding: 2px 7px 0px 7px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*Footer*/
+
+.conteneur_footer {
+background-color: #59c6f1;
+width: 100%;
+height: auto;
+margin-top: 20px;
+
+}
+
+#element1 {
+    text-decoration: none;
+}
+
+
+
+
+
