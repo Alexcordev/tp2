@@ -1,13 +1,12 @@
 * {
 
-    box-sizing: border-box;
+   box-sizing: border-box;
     padding: 0;
 
 }
 
 body {
 
-    box-sizing: content-box;
     margin: auto;
     background-color: rgb(118, 149, 252);
     font-family: sans-serif;
@@ -210,15 +209,6 @@ nav a:visited {
   }
 
 
-  #table3 {
-    height: 100%;
-    width:100%;
-    text-align: center;
-    border: none;
-    background-color: rgb(63, 222, 243);
-    
-}
-
 #temp_min {
     color: blue;
 }
@@ -227,11 +217,6 @@ nav a:visited {
     color: red;
 }
 
-.tabImage {
-
-    width: 20%;
-
-}
 
 /*Page Commentaires*/
 
@@ -266,26 +251,33 @@ button {
     padding: 2px 7px 0px 7px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
 /*Footer*/
 
 .conteneur_footer {
 background-color: #59c6f1;
 width: 100%;
-height: auto;
+line-height: auto;
 margin-top: 20px;
 
 }
+
+#table3 {
+    height: 100%;
+    width:100%;
+    text-align: center;
+    border: none;
+    background-color: rgb(156, 213, 252);
+    
+    
+    
+}
+
+.tabImage {
+
+    width: 12%;
+   
+}
+
 
 #element1 {
     text-decoration: none;
